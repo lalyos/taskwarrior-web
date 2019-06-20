@@ -2,6 +2,7 @@
 
 A lightweight, Sinatra-based web interface for the
 wonderful [Taskwarrior](http://taskwarrior.org/) todo application.
+
 -------------------
 ## Run in docker
 
