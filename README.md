@@ -7,7 +7,7 @@ wonderful [Taskwarrior](http://taskwarrior.org/) todo application.
 ## Run in docker
 
 ```
-docker run -d\
+docker run -d \
   --name taskwarrior-web \
   -p 5678:5678 \
   -v $HOME/.task:/root/.task \
