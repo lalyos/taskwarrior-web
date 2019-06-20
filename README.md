@@ -2,6 +2,18 @@
 
 A lightweight, Sinatra-based web interface for the
 wonderful [Taskwarrior](http://taskwarrior.org/) todo application.
+-------------------
+## Run in docker
+
+```
+docker run -d\
+  --name taskwarrior-web \
+  -p 5678:5678 \
+  -v $HOME/.task:/root/.task \
+  -v $HOME/.taskrc:/root/.taskrc:ro \
+  lalyos/taskwarrior-web
+```
+------------------
 
 Check out the [Live Demo](http://35.196.114.51).
 
